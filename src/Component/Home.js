@@ -7,15 +7,15 @@ const Home = () => {
   return (
     <div className="min-w-full md:min-w-screen text-white my-1 mt-20 h-screen flex justify-center items-center">
       <div className="text-center ml-4 w-2/4">
-        <h1 className="text-2xl sm:text-3xl md:text-3xl lg:text-3xl xl:text-3xl font-bold mb-4">
+        <h1 className="text-2xl hover:text-sky-500 sm:text-3xl md:text-3xl lg:text-3xl xl:text-3xl font-bold mb-4">
           Welcome to My Portfolio
         </h1>
         <p className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-2xl mb-6">
           Explore my work, skills, and passions. Let's create together!
           <br />
         </p>
-        <p className="text-lg sm:text-xl md:text-2xl lg:text-2xl xl:text-2xl font-semibold">
-          I'm Tannous, a web developer
+        <p className="text-lg sm:text-sm md:text-2xl lg:text-2xl xl:text-2xl font-semibold">
+          I'm <span className="text-sky-500">Tannous Khattar</span>, a web developer
         </p>
         <p className="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-2xl">
           I specialize in creating web applications using modern technologies

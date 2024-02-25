@@ -6,6 +6,8 @@ import AboutMe from "./Component/AboutMe";
 import Home from "./Component/Home";
 import Navbar from "./Component/Navbar";
 import Projects from "./Component/Projects";
+import Contact from "./Component/Contact";
+
 import p1 from "./Component/Assets/vue1.png";
 import p2 from "./Component/Assets/vue2.png";
 import vue from "./Component/Assets/vue.png";
@@ -97,6 +99,7 @@ function App() {
             path="/projects"
             element={<Projects projects={projectData} />}
           />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
         <Footer />
       </div>

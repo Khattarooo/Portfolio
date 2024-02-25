@@ -110,7 +110,6 @@ const Projects = ({ projects }) => {
         ))}
       </div>
 
-      {/* Render project rows */}
       {rows.map((row, rowIndex) => (
         <div key={rowIndex} className="flex justify-center flex-wrap ">
           {row.map((project, projectIndex) => (
